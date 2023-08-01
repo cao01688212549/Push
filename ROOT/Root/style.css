@@ -1,0 +1,81 @@
+#logo {
+  color: #fff;
+  font-family: verdana;
+  text-shadow: 2px 2px 8px rgb(43, 41, 37);
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#search {
+  position: absolute;
+  top: 15px;
+  right: 0px;
+  font-size: 14px;
+  width: 350px;
+}
+
+#myNav {
+  box-sizing: border-box;
+  font-family: tahoma;
+  width: 100%;
+  background-color: rgb(14, 12, 10);
+  overflow: auto;
+  
+}
+
+#myNav a {
+  float: left;
+  width: 356px;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: double;
+  padding: 12px 5px;
+  text-align: center;
+}
+
+#myNav a:hover:not(.active){
+  background-color: rgb(255, 115, 0);
+}
+
+#left {
+  position:absolute;
+  top: 250px;
+  left: 50px;
+
+}
+.form-group.required .control-label:after { 
+  content:"*";
+  color:red;
+}
+
+section {
+  position: absolute;
+  top: 150px;
+  left: 460px;
+  width: 35%;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+#right {
+  position: absolute;
+  top: 250px;
+  left: 500px;
+  width: 500px;
+}
+
+footer{
+  position: absolute;
+  bottom: 0px;
+}
+
+/* .alert {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  background-color: #f0f0f0;
+}
+
+.alert .strong {
+  color: #000;
+} */
